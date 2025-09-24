@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfcfb;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+
+h1 {
+    background: linear-gradient(135deg, #b91c1c, #f87171);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h4{
+    font-style: italic;
+}
+img {
+    width: 360px;
+    margin: 40px auto;
+    display: block;
+    border-radius: 20%;
+    box-shadow: 0 4px 10px rgba(8, 3, 3, 0.2);
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.05);
+}
+
+li {
+    list-style-type: style arial;
+    margin: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #b91c1c;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #b91c1c;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #b91c1c;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.contenedor {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contenedor h2 {
+    margin-bottom: 15px;
+    color: #b91c1c;
+    border-bottom: 2px solid #f87171;
+    padding-bottom: 5px;
+}
+
+
+.ingredientes {
+    border-left: 6px solid #f59e0b; 
+}
+
+
+.ingredientes ul li,{
+    list-style-type: disc; 
+    margin-left: 25px; 
+}
+
+.pasos {
+    border-left: 6px solid #10b981; 
+}
+
+.acompanamientos {
+    border-left: 6px solid  #3b82f6;
+}
+
+.acompanamientos ul li,  { 
+    list-style-type: disc; 
+    margin-left: 25px;
+}
+
+
+.contenedor ul li,
+.contenedor ol li {
+    margin: 8px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.Registro {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.Registro h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.Registro label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0 5px;
+    color: #444;
+}
+
+.Registro input[type="text"],
+.Registro input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.Registro input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.Registro input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #b91c1c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Registro input[type="submit"]:hover {
+    background: #b91c1c;
+}
